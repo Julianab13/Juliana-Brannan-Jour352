@@ -1,0 +1,14 @@
+/* styles for my resume */
+
+/* background */
+body  {
+    font-family: "Open Sans", Arial, sans-serif ; font-size: 1em; font-style:normal; font-weight: 400; color:#444;
+  }
+/* title */  
+h1 {
+    font-size: 3m; color:#33485e; text-transform:uppercase; text-align:center;
+}
+/* title */
+strong {
+    font-size: 1.5em; text-transform: uppercase; color:33485e;
+}
