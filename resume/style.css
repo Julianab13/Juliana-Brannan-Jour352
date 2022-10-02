@@ -4,18 +4,27 @@
 body  {
     font-family: "Open Sans", Arial, sans-serif ; font-size: 1em; font-style:normal; font-weight: 400; color:#444;
   }
-/* title */ 
+
+/* Add a div around the entire document with the id "container". Add the container ID near the top of your stylesheet (under BODY). Give it a width of 100%, a maximum width of 1200 pixels and center the div by giving it a margin of "0 auto". Add 50 pixels of padding to the bottom. */
+
+#container {
+    width: 100%; max-width: 1200px; margin: 0 auto; padding-bottom: 50px;
+}
+
 /* A solid border on the bottom set to 1 pixel with a color of #33485e. 
 Set the width at 60 percent and the minimum width at 300 pixels. 
 Set the margin to "0 auto" to center */ 
+
 #name {
-    font-size: 3m; color:#33485e; text-transform:uppercase; text-align:center; width: 60%; min-width: 300px; margin: 0 auto center;
+    font-size: 3em; color:#33485e; text-transform:uppercase; text-align:center; width: 60%; min-width: 300px; margin: 0 auto;
+    border-bottom: #33485e solid 1px; border-width: 60%; 
 }
 /* title */
-strong {
-    font-size: 1.5em; text-transform: uppercase; color:33485e;
+/* Change the <strong> tag around your title to a div with an id of "title" in both your index and stylesheet. Give that a font weight of 600 and center the text. Give that element a top margin of 20 pixels and 0 on all other sides. */
+#title {
+    font-size: 1.5em; text-transform: uppercase; color:33485e; font-weight: 600; text-align: center; margin-top: 20px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;
 }
-/* sections */
+/* sections */ 
 /*
 Change the Heading 2 tags in your html document and stylesheet to a div with a class of "sectionheader". Maintain the existing styling, while changing / adding the following:
 A margin of 10 pixels on the bottom, 20 to the top, and 0 on all other sides.
@@ -25,7 +34,7 @@ Change the Heading 3 tags in your html document and stylesheet to a div with a c
     font-size:1.5em; text-transform:uppercase; color:white; background-color: #33485e; font-weight:400; margin-bottom: 10px; margin-top: 20px; margin-left: 0px; margin-right: 0px; width: 70%; min-width: 300px;
 }
 /* job titles */
-h3 {
+#jobtitle {
     font-size: 1.5em; font-weight: 600;
 }
 /* job organization */
@@ -44,8 +53,12 @@ Change the Heading 4 tags in your html document and stylesheet to a div with a c
 /* Add a class of "menu" to the unordered list containing your contact information. In your stylesheet, set the margin and padding for this list on all sides to 0px (you may use one value to do this for margin and padding), and align the text to the center.  */
 
 #menu {
-    font-size: 1em; margin: 0px; padding: 0px; text-align: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style-type:none;
 }
+
 /* Add a class of "description" to all of the paragraph elements on the page. Leave the styling as is, but set the margin at the top and bottom to 10 pixels, while setting all other margins to 0 pixels. */
 #description {
     margin-top: 10px; margin-bottom: 10px; margin-left: 0px; margin-right: 0px;
@@ -58,4 +71,9 @@ Change the Heading 4 tags in your html document and stylesheet to a div with a c
 /* Add an id of "do" to the unordered list in the skills section. In your stylesheet, set the top margin to 5 pixels, while leaving all the other sides at 0. */
 #do {
     margin-top: 5px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;
+}
+
+/* Add a class called "top" to the mission statement text at the top. Be sure it is at the bottom of your stylesheet. Give it a width of 60% with a minimum width of 300 pixels. Center by giving adding "margin:0 auto;" and give it a bottom margin of 30 pixels. */
+#top {
+    width: 60%; min-width: 300px; margin:0 auto; margin-bottom: 30px;
 }
