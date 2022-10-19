@@ -1,1 +1,79 @@
-
+/* StyleSheet for Midterm */
+/* from assignments */
+#container {
+    width: 100%; max-width: 900px; margin: 0 auto; padding-bottom: 50px;
+}
+#content {
+    margin: 0 auto;
+    width: 900px;
+}
+#banner {
+    font-family: Impact, sans-serif;
+    font-size: 48pt;
+    color: red;
+    text-align: right;
+    border-bottom: #33485e solid 1px; 
+    border-width: 60%; 
+    margin-bottom: 1em;
+}
+#redlink {
+    color:red;
+}
+#headline {
+    font-family: 'Lucida Sans', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 32pt;
+    margin-bottom: .5em;
+}
+#byline {
+    font-family: 'Lucida Sans', sans-serif;
+    font-size:16pt;
+    margin-bottom: 1em;
+}
+#author {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18pt;
+    color: black;
+    margin-top: .5em;
+}
+#story-date {
+    font-family:  Helvetica, Arial, sans-serif;
+    font-size: 12pt;
+    font-style: italic;
+    margin-top: .5em;
+}
+#story {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+#pullquote {
+    display: block;
+    float: right;
+    padding: 5px 0 0 10px;
+    margin: 10px 0 10px 10px;
+    width: 170px;
+    font-size: 18pt;
+    line-height: 1.4em;
+    text-align: right;
+    color: red;
+    border-left: 3px solid #ccc;
+}
+  h2 {
+    font-family: 'Lucida Sans', sans-serif;
+  }
+figure {
+    float: right;
+    text-align: left;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: .5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  #top-figure {
+    float: left;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-left: 0;
+}
