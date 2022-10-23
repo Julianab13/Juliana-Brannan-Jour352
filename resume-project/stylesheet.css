@@ -2,14 +2,13 @@
 
 /* background */
 body  {
-    font-family: "Open Sans", Arial, sans-serif ; font-size: 1em; font-style:normal; font-weight: 400; color:#444;
-  }
+    font-family: "Open Sans", sans-serif;
+     font-size: 1em; font-style:normal; font-weight: 400; color:#444;
+     width: 95%; margin-left: 2em; margin-right: 2em; padding-bottom: 50px;
+     
+}
 
 /* Add a div around the entire document with the id "container". Add the container ID near the top of your stylesheet (under BODY). Give it a width of 100%, a maximum width of 1200 pixels and center the div by giving it a margin of "0 auto". Add 50 pixels of padding to the bottom. */
-
-#container {
-    width: 100%; margin: auto; padding-bottom: 50px;
-}
 
 #footer{
     font-size: smaller; 
@@ -20,13 +19,14 @@ Set the width at 60 percent and the minimum width at 300 pixels.
 Set the margin to "0 auto" to center */ 
 
 #name {
-    font-size: 3em; color:#33485e; text-transform:uppercase; text-align:center; width: 60%; min-width: 300px; margin: 0 auto;
-    border-bottom: #33485e solid 1px; border-width: 60%; 
+    font-size: 3em; color:#179351; text-transform:uppercase; text-align:center; width: 60%; min-width: 300px; margin: 0 auto;
+    font-size: 3em; color:#168a4c; text-transform:uppercase; text-align:center; width: 60%; min-width: 300px; margin: 0 auto;
+   
 }
 /* title */
 /* Change the <strong> tag around your title to a div with an id of "title" in both your index and stylesheet. Give that a font weight of 600 and center the text. Give that element a top margin of 20 pixels and 0 on all other sides. */
 #title {
-    font-size: 1.5em; text-transform: uppercase; color:33485e; font-weight: 600; text-align: center; margin-top: 20px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;
+    font-size: 1.5em; text-transform: uppercase; color:#168a4c; font-weight: 600; text-align: center; margin-top: 20px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;
 }
 /* sections */ 
 /*
@@ -35,7 +35,7 @@ A margin of 10 pixels on the bottom, 20 to the top, and 0 on all other sides.
 Set the width at 70 percent and the minimum width at 300 pixels.
 Change the Heading 3 tags in your html document and stylesheet to a div with a class of "jobtitle". Leave the styling as is. */
 #sectionheader {
-    font-size:1.5em; text-transform:uppercase; color:white; background-color: #33485e; font-weight:400; margin-bottom: 10px; margin-top: 20px; margin-left: 0px; margin-right: 0px; width: 70%; min-width: 300px;
+    font-size:1.5em; text-transform:uppercase; color:white; background-color: #52BE80; font-weight:400; margin-bottom: 10px; margin-top: 20px; width: 100%;
 }
 /* job titles */
 #jobtitle {
@@ -84,7 +84,7 @@ display: inline;
 
 /* Add a class called "top" to the mission statement text at the top. Be sure it is at the bottom of your stylesheet. Give it a width of 60% with a minimum width of 300 pixels. Center by giving adding "margin:0 auto;" and give it a bottom margin of 30 pixels. */
 #top {
-    width: 60%; min-width: 300px; margin:0 auto; margin-bottom: 30px;
+    width: 60%; min-width: 300px; margin:0 auto; margin-bottom: 30px; color: #124329;
 }
 #banner{
 background-image: url('banner.jpg'); 
