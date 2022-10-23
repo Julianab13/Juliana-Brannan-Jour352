@@ -11,6 +11,10 @@ body  {
     width: 100%; max-width: 1200px; margin: 0 auto; padding-bottom: 50px;
 }
 
+#footer{
+    font-size: smaller; 
+    text-align: center;
+}
 /* A solid border on the bottom set to 1 pixel with a color of #33485e. 
 Set the width at 60 percent and the minimum width at 300 pixels. 
 Set the margin to "0 auto" to center */ 
