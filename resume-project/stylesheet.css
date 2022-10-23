@@ -8,7 +8,7 @@ body  {
 /* Add a div around the entire document with the id "container". Add the container ID near the top of your stylesheet (under BODY). Give it a width of 100%, a maximum width of 1200 pixels and center the div by giving it a margin of "0 auto". Add 50 pixels of padding to the bottom. */
 
 #container {
-    width: 100%; max-width: 1200px; margin: 0 auto; padding-bottom: 50px;
+    width: 100%; margin: auto; padding-bottom: 50px;
 }
 
 #footer{
@@ -86,4 +86,7 @@ display: inline;
 #top {
     width: 60%; min-width: 300px; margin:0 auto; margin-bottom: 30px;
 }
-
+#banner{
+background-image: url('banner.jpg'); 
+background-size: 100%;
+}
