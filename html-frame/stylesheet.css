@@ -14,7 +14,25 @@
 }
 #byline {
     font-family: 'Lucida Sans', sans-serif;
-    font-size:16pt;
+    font-size:12pt;
     margin-bottom: 1em;
     text-align: center;
+}
+#heading{
+    font-family: 'Lucida Sans', sans-serif;
+    font-weight: bold;
+    font-size:20pt;
+    margin-bottom: 1em;  
+}
+figure{
+text-align: center;
+}
+#footer{
+background-color: black;
+}
+#footer-text{
+color: white;
+}
+#copyright{
+color: white;
 }
