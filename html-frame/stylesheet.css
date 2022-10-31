@@ -5,3 +5,15 @@
     margin: 0 auto;
     width: 900px;
 }
+#headline {
+    font-family: 'Lucida Sans', sans-serif;
+    font-weight: bold;
+    font-size: 32pt;
+    margin-bottom: .5em;
+    text-align: center;
+}
+#byline {
+    font-family: 'Lucida Sans', sans-serif;
+    font-size:16pt;
+    margin-bottom: 1em;
+}
