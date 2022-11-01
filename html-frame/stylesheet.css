@@ -35,10 +35,12 @@ figure{
  }
  figure figcaption{
     text-align: left;
+    color: lightgray;
  }
 #footer{
 text-align: center;
 background-color: black;
+margin-top: 3em;
 }
 #footer-text{
 color: white;
