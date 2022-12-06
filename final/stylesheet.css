@@ -1,1 +1,131 @@
+/* styles for my final */
 
+/* background */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: 400;
+    color: #444;
+    width: 95%;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-bottom: 50px;
+
+}
+
+#vidbox {
+    position: relative;
+    z-index: 0
+}
+
+#headline {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 42pt;
+}
+
+h2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: navy;
+}
+
+#container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+#content {
+    margin: 0 auto;
+    width: 900px;
+}
+
+#banner {
+    font-family: cursive;
+    font-size: 68pt;
+    color: black;
+    text-align: right;
+    margin-bottom: .1em;
+    padding-bottom: .5em;
+}
+
+#banner-tag {
+    border-bottom: black solid 1px;
+    border-width: 60%;
+    text-align: right;
+    padding-top: .01em;
+}
+
+#headline {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 42pt;
+}
+
+#byline {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24pt;
+    margin-top: 5pt;
+}
+
+#author {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+    color: navy;
+    margin-top: .5em;
+}
+
+#story-date {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    font-style: italic;
+    margin-top: .5em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #ccc;
+}
+
+#story {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16pt;
+}
+
+#pullquote {
+    display: block;
+    float: right;
+    padding: 5px 0 0 10px;
+    margin: 10px 0 10px 10px;
+    width: 170px;
+    font-size: 18pt;
+    line-height: 1.4em;
+    text-align: right;
+    color: navy;
+    border-left: 3px solid #ccc;
+}
+
+#pullquote2 {
+    display: block;
+    float: left;
+    padding: 0px 5px 0 10px;
+    margin: 0px 20px 0px 0px;
+    width: 170px;
+    font-size: 18pt;
+    line-height: 1.4em;
+    text-align: left;
+    color: navy;
+    border-right: 3px solid #ccc;
+}
+
+#figure4 {
+    width: 100%;
+    text-align: left;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 1em;
+    margin: 0.5em;
+    padding: 0.5em;
+}
